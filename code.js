@@ -28,5 +28,10 @@ draw("");
 
 // update display everytime bar is changed
 searchbarelem.onkeyup = function() {
+    // clear old
+    for (thing of document.getElementsByClassName("searcheditem")) {
+        thing.remove();
+    }
+    // add new
     draw(this.value);
 }
