@@ -4,6 +4,7 @@
     box-sizing: border-box;
     padding: 15px;
     background-color: #e4e4e4;
+    border: 1px solid #aaaaaa;
 }
 
 body {
