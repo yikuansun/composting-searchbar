@@ -1,5 +1,5 @@
 // initiate search items
-searchitems = document.getElementById("compostableitems").split("\n");
+searchitems = document.getElementById("compostableitems").innerText.split("\n");
 
 // add search bar
 searchbarelem = document.createElement("input");
