@@ -32,8 +32,9 @@ draw("");
 searchbarelem.onkeyup = function() {
     // clear old
     console.clear();
-    for (thing of document.getElementsByClassName("searcheditem")) {
-        thing.remove();
+    searcheditems = document.getElementsByClassName("searcheditem");
+    while (searcheditems[0]) {
+        searcheditems[0].remove();
     }
     // add new
     draw(this.value);
