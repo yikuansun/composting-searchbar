@@ -15,6 +15,7 @@ function draw(query) {
     // display all items that include the query
     for (item of searchitems) {
         if (item.includes(query)) {
+            console.log(item);
             itemelem = document.createElement("div");
             itemelem.innerText = item;
             itemelem.setAttribute("class", "searcheditem");
