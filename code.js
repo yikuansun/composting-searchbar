@@ -17,7 +17,7 @@ function draw(query) {
         if (item.includes(query)) {
             itemelem = document.createElement("div");
             itemelem.innerText = item;
-            itemelem.class = "searcheditem";
+            itemelem.setAttribute("class", "searcheditem");
             document.body.appendChild(itemelem);
         }
     }
