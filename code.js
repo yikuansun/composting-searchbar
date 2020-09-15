@@ -19,16 +19,19 @@ function draw(query) {
             itemelem.innerText = item;
             itemelem.setAttribute("class", "searcheditem");
             document.body.appendChild(itemelem);
+            console.log(item);
         }
     }
 }
 
 // do it ig
+console.clear();
 draw("");
 
 // update display everytime bar is changed
 searchbarelem.onkeyup = function() {
     // clear old
+    console.clear();
     for (thing of document.getElementsByClassName("searcheditem")) {
         thing.remove();
     }
