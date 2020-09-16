@@ -8,7 +8,10 @@ searchbarelem.style.width = "100%";
 searchbarelem.style.padding = "15px";
 searchbarelem.style.boxSizing = "border-box";
 searchbarelem.style.borderRadius = "0";
-searchbarelem.placeholder = "Search here";
+searchbarelem.style.position = "absolute";
+searchbarelem.style.bottom = "0";
+searchbarelem.style.left = "0";
+searchbarelem.placeholder = "Find an item";
 document.body.appendChild(searchbarelem);
 
 // update the display
