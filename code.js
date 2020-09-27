@@ -1,5 +1,11 @@
 // initiate search items
 searchitems = document.getElementById("compostableitems").innerText.split("\n");
+for (i = 0; i < searchitems.length; i++) {
+    searchitems[i] = {
+        name: searchitems[i].split(":")[0],
+        type: searchitems[i].split(":")[1]
+    };
+}
 
 // add search bar
 searchbarelem = document.createElement("input");
@@ -18,12 +24,17 @@ document.body.appendChild(searchbarelem);
 function draw(query) {
     // display all items that include the query
     for (item of searchitems) {
-        if (item.toUpperCase().includes(query.toUpperCase())) {
+        if (item.name.toUpperCase().includes(query.toUpperCase())) {
             itemelem = document.createElement("div");
-            itemelem.innerText = item;
+            itemelem.innerText = item.name;
             itemelem.setAttribute("class", "searcheditem");
             document.body.appendChild(itemelem);
-            console.log(item);
+            console.log(item.name);
+
+            // show type
+            typeelem = document.createElement("div");
+            typeelem.innerText = "Type: " + item.type;
+            itemelem.appendChild(typeelem);
         }
     }
 }
