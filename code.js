@@ -3,7 +3,7 @@ searchitems = document.getElementById("compostableitems").innerText.split("\n");
 for (i = 0; i < searchitems.length; i++) {
     searchitems[i] = {
         name: searchitems[i].split(":")[0],
-        type: searchitems[i].split(":")[1]
+        compostable: parseInt(searchitems[i].split(":")[1])
     };
 }
 
@@ -33,7 +33,7 @@ function draw(query) {
 
             // show type
             typeelem = document.createElement("div");
-            typeelem.innerText = "Type: " + item.type;
+            typeelem.innerHTML = "Compostable at home: " + (item.compostable?"<span style='color: #005500'>yes</span>":"<span style='color: #550000'>no</span>");
             itemelem.appendChild(typeelem);
         }
     }
