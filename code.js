@@ -3,7 +3,8 @@ searchitems = document.getElementById("compostableitems").innerText.split("\n");
 for (i = 0; i < searchitems.length; i++) {
     searchitems[i] = {
         name: searchitems[i].split(":")[0],
-        compostable: parseInt(searchitems[i].split(":")[1])
+        compostable_home: parseInt(searchitems[i].split(":")[1]),
+        compostable_orangecounty: parseInt(searchitems[i].split(":")[2])
     };
 }
 
@@ -31,9 +32,12 @@ function draw(query) {
             document.body.appendChild(itemelem);
             console.log(item.name);
 
-            // show type
+            // show compostable?
             typeelem = document.createElement("div");
-            typeelem.innerHTML = "Compostable at home: " + (item.compostable?"<span style='color: #005500'>yes</span>":"<span style='color: #550000'>no</span>");
+            typeelem.innerHTML = "Compostable at home: " + (item.compostable_home?"<span style='color: #005500'>yes</span>":"<span style='color: #550000'>no</span>");
+            itemelem.appendChild(typeelem);
+            typeelem = document.createElement("div");
+            typeelem.innerHTML = "Compostable by Orange County drop off: " + (item.compostable_orangecounty?"<span style='color: #005500'>yes</span>":"<span style='color: #550000'>no</span>");
             itemelem.appendChild(typeelem);
         }
     }
