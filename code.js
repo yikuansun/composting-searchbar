@@ -1,7 +1,15 @@
+// create loading thing
+loadingsign = document.createElement("h1");
+loadingsign.innerText = "Fetching data from web...";
+document.body.appendChild(loadingsign);
+
 // request data
 var request = new XMLHttpRequest();
 request.open('GET', 'https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/data.txt', false);
 request.send();
+
+// remove loading thing
+loadingsign.remove();
 
 // initiate search items
 searchitems = request.responseText.split("\n");
