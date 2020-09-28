@@ -8,6 +8,12 @@ var request = new XMLHttpRequest();
 request.open('GET', 'https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/data.txt', false);
 request.send();
 
+// check for error
+if (request.status != 200) {
+    loadingsign.innerText = "Oops! Error fetching data.";
+    throw "ball";
+}
+
 // remove loading thing
 loadingsign.remove();
 
