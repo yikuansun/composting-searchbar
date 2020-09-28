@@ -4,21 +4,21 @@ loadingsign.innerText = "Fetching data from web...";
 document.body.appendChild(loadingsign);
 
 // request data
-var request = new XMLHttpRequest();
-request.open('GET', 'https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/data.txt', false);
-request.send();
-
+try {
+    dataRequest = fileFetcher.url("https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/data.txt");
+    data = fileFetcher.readTextValue(dataRequest);
+}
 // check for error
-if (request.status != 200) {
+catch(err) {
     loadingsign.innerText = "Oops! Error fetching data.";
-    throw "ball";
+    throw "ball"; // throw fatal error ig
 }
 
 // remove loading thing
 loadingsign.remove();
 
 // initiate search items
-searchitems = request.responseText.split("\n");
+searchitems = data.split("\n");
 for (i = 0; i < searchitems.length; i++) {
     searchitems[i] = {
         name: searchitems[i].split(":")[0],
