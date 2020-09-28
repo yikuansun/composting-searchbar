@@ -1,5 +1,10 @@
+// request data
+var request = new XMLHttpRequest();
+request.open('GET', 'https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/data.txt', false);
+request.send();
+
 // initiate search items
-searchitems = document.getElementById("compostableitems").innerText.split("\n");
+searchitems = request.responseText.split("\n");
 for (i = 0; i < searchitems.length; i++) {
     searchitems[i] = {
         name: searchitems[i].split(":")[0],
