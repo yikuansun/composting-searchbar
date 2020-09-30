@@ -27,6 +27,14 @@ for (i = 0; i < searchitems.length; i++) {
     };
 }
 
+// add fixed div at bottom
+myDiv = document.createElement("div");
+myDiv.style.position = "fixed";
+myDiv.style.bottom = "0";
+myDiv.style.width = "100%";
+myDiv.style.backgroundColor = "white";
+document.body.appendChild(myDiv);
+
 // add search bar
 searchbarelem = document.createElement("input");
 searchbarelem.type = "text";
@@ -34,11 +42,12 @@ searchbarelem.style.width = "100%";
 searchbarelem.style.padding = "15px";
 searchbarelem.style.boxSizing = "border-box";
 searchbarelem.style.borderRadius = "0";
-searchbarelem.style.position = "fixed";
-searchbarelem.style.bottom = "0";
 searchbarelem.style.left = "0";
 searchbarelem.placeholder = "Find an item";
-document.body.appendChild(searchbarelem);
+myDiv.appendChild(searchbarelem); // add it to the fixed div
+
+// add a key
+myDiv.innerHTML += "<img alt='Compostable at home' src='house_icon.svg' style='height: 1em; width: 1em; vertical-align: middle;'/>: is it compostable at home?                           <img alt='Compostable by Orange County drop off' src='orange_icon.svg' style='height: 1em; width: 1em; vertical-align: middle;'/>: is it compostable via Orange County drop off?";
 
 // update the display
 function draw(query) {
@@ -67,7 +76,7 @@ console.clear();
 draw("");
 
 // update display everytime bar is changed
-searchbarelem.onkeyup = function() {
+document.getElementsByTagName("input")[0].onkeyup = function() { // encountered a weird bug when using searchbarelem alias. idk why
     // clear old
     console.clear();
     searcheditems = document.getElementsByClassName("searcheditem");
