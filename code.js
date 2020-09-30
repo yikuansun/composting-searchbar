@@ -53,10 +53,10 @@ function draw(query) {
 
             // show compostable?
             typeelem = document.createElement("div");
-            typeelem.innerHTML = "Compostable at home: " + (item.compostable_home?"<span style='color: #005500'>yes</span>":"<span style='color: #550000'>no</span>");
+            typeelem.innerHTML = "<img alt='Compostable at home' src='house_icon.svg' style='height: 1em; width: 1em; vertical-align: middle;'/>: " + (item.compostable_home?"<img src='check_icon.svg' style='color: #005500; height: 1em; width: 1em; vertical-align: middle;' alt='yes'/>":"<img src='x_icon.svg' style='color: #550000; height: 1em; width: 1em; vertical-align: middle;' alt='no'/>");
             itemelem.appendChild(typeelem);
             typeelem = document.createElement("div");
-            typeelem.innerHTML = "Compostable by Orange County drop off: " + (item.compostable_orangecounty?"<span style='color: #005500'>yes</span>":"<span style='color: #550000'>no</span>");
+            typeelem.innerHTML = "<img alt='Compostable by Orange County drop off' src='orange_icon.svg' style='height: 1em; width: 1em; vertical-align: middle;'/>: " + (item.compostable_orangecounty?"<img src='check_icon.svg' style='color: #005500; height: 1em; width: 1em; vertical-align: middle;' alt='yes'/>":"<img src='x_icon.svg' style='color: #550000; height: 1em; width: 1em; vertical-align: middle;' alt='no'/>");
             itemelem.appendChild(typeelem);
         }
     }
