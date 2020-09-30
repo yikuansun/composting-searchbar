@@ -47,7 +47,7 @@ searchbarelem.placeholder = "Find an item";
 myDiv.appendChild(searchbarelem); // add it to the fixed div
 
 // add a key
-myDiv.innerHTML += "<img alt='Compostable at home' src='house_icon.svg' style='height: 1em; width: 1em; vertical-align: middle;'/>: is it compostable at home?                           <img alt='Compostable by Orange County drop off' src='orange_icon.svg' style='height: 1em; width: 1em; vertical-align: middle;'/>: is it compostable via Orange County drop off?";
+myDiv.innerHTML += "<img alt='Compostable at home' src='house_icon.svg' style='height: 1em; width: 1em; vertical-align: middle;'/>: is it compostable at home?<br/><img alt='Compostable by Orange County drop off' src='orange_icon.svg' style='height: 1em; width: 1em; vertical-align: middle;'/>: is it compostable via Orange County drop off?";
 
 // update the display
 function draw(query) {
