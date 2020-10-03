@@ -34,6 +34,7 @@ myDiv = document.createElement("div");
 myDiv.style.width = "100%";
 myDiv.style.backgroundColor = "white";
 document.body.appendChild(myDiv);
+myDiv.id = "searchbardiv"; // for the css
 
 // add search bar
 searchbarelem = document.createElement("input");
