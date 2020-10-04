@@ -1,39 +1,3 @@
-<div style="background-image: url(image_data/Bones.PNG)"></div>
-<div style="background-image: url(image_data/Bread.png)"></div>
-<div style="background-image: url(image_data/Certified\ compostable.PNG)"></div>
-<div style="background-image: url(image_data/Coffee.PNG)"></div>
-<div style="background-image: url(image_data/Cork\,\ bamboo\ more.PNG)"></div>
-<div style="background-image: url(image_data/Cotton\ wool\ rags.PNG)"></div>
-<div style="background-image: url(image_data/Dairy.PNG)"></div>
-<div style="background-image: url(image_data/Dough.png)"></div>
-<div style="background-image: url(image_data/Dryer\ lint.PNG)"></div>
-<div style="background-image: url(image_data/Eggs\ eggshell.PNG)"></div>
-<div style="background-image: url(image_data/Fireplace\ ashes.PNG)"></div>
-<div style="background-image: url(image_data/Fish.PNG)"></div>
-<div style="background-image: url(image_data/Fruits.PNG)"></div>
-<div style="background-image: url(image_data/NOT\ Compostables/Glass\ and\ more.PNG)"></div>
-<div style="background-image: url(image_data/Grass\ clippings.PNG)"></div>
-<div style="background-image: url(image_data/Hair\ fur.PNG)"></div>
-<div style="background-image: url(image_data/Hay\ straw.PNG)"></div>
-<div style="background-image: url(image_data/House\ plants.PNG)"></div>
-<div style="background-image: url(image_data/Leaves.PNG)"></div>
-<div style="background-image: url(image_data/Meat.PNG)"></div>
-<div style="background-image: url(image_data/Nutshells.PNG)"></div>
-<div style="background-image: url(image_data/Paper.PNG)"></div>
-<div style="background-image: url(image_data/Paper\ cup\ plates.PNG)"></div>
-<div style="background-image: url(image_data/Pasta.PNG)"></div>
-<div style="background-image: url(image_data/NOT\ Compostables/Plastic\ bag\ and\ more.PNG)"></div>
-<div style="background-image: url(image_data/NOT\ Compostables/Product\ basket\ and\ more.PNG)"></div>
-<div style="background-image: url(image_data/NOT\ Compostables/Rubber\ band\ and\ more.PNG)"></div>
-<div style="background-image: url(image_data/Sawdust.PNG)"></div>
-<div style="background-image: url(image_data/Shredded\ newspaper.PNG)"></div>
-<div style="background-image: url(image_data/NOT\ Compostables/Styrofoam\ and\ more.PNG)"></div>
-<div style="background-image: url(image_data/Table\ scraps.PNG)"></div>
-<div style="background-image: url(image_data/Tea\ bags.PNG)"></div>
-<div style="background-image: url(image_data/Veggies.PNG)"></div>
-<div style="background-image: url(image_data/Wood\ chips.PNG)"></div>
-<div style="background-image: url(image_data/Yard\ trimmings.PNG)"></div>
-
 <style>
     div {
         background-size: contain;
@@ -55,7 +19,23 @@
     }
 </style>
 
+<body></body>
+
 <script>
+    request = new XMLHttpRequest();
+    request.open('GET', "https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_urls.txt", false);
+    request.send();
+    if (request.status != 200) {
+        document.write("Error in fetching data");
+        throw "ball";
+    }
+
+    for (imgurl of request.responseText.split("\n")) {
+        div = document.createElement("div");
+        div.style.backgroundImage = "url('" + imgurl + "')";
+        document.body.appendChild(div);
+    }
+
     for (div of document.getElementsByTagName("div")) {
         if (div.style.backgroundImage.includes("NOT Compostables")) {
             div.onclick = function() {
