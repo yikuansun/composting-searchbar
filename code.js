@@ -32,7 +32,7 @@ myDiv = document.createElement("div");
 //myDiv.style.position = "fixed";
 //myDiv.style.bottom = "0";
 myDiv.style.width = "100%";
-myDiv.style.backgroundColor = "white";
+myDiv.style.backgroundColor = "lightblue";
 document.body.appendChild(myDiv);
 myDiv.id = "searchbardiv"; // for the css
 
