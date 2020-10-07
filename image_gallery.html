@@ -2,6 +2,10 @@
     div {
         background-size: contain;
         float: left;
+        width: 33.33vw;
+        width: calc(100vw / 3);
+        height: 33.33vw;
+        height: calc(100vw / 3);
     }
     body {
         margin: 0;
@@ -23,18 +27,8 @@
         background-position: 20px 15px;
         background-repeat: no-repeat;
         padding-left: 60px;
-    }
-    @media screen and (orientation:portrait) {
-        div {
-            width: 50vw;
-            height: 50vw;
-        }
-    }
-    @media screen and (orientation:landscape) {
-        div {
-            width: 25vw;
-            height: 25vw;
-        }
+        filter: drop-shadow(0px 10px 10px #333333);
+        -webkit-filter: drop-shadow(0px 10px 10px #333333);
     }
 </style>
 
@@ -67,7 +61,7 @@
     searchbar.placeholder = "find an item";
     document.body.appendChild(searchbar);
 
-    document.getElementsByTagName("input")[0].onkeyup = function() {
+    document.getElementsByTagName("input")[0].onkeyup = function(event) {
         for (div of document.getElementsByTagName("div")) {
             if (div.style.backgroundImage.toUpperCase().includes(this.value.toUpperCase())) {
                 div.style.display = "";
@@ -75,6 +69,12 @@
             else {
                 div.style.display = "none";
             }
+        }
+
+        if (event.keyCode == 13) {
+            //decoy = document.createElement("a");
+            //decoy.focus();
+            this.blur();
         }
     }
 </script>
