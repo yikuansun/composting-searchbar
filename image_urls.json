@@ -3,177 +3,212 @@
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Bones.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"bones"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Bread.png",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"bread, grains"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Certified compostable.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"certified compostable serving ware"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Coffee.PNG",
             "homecompostable":"1",
-            "orange":"0"
+            "orange":"0",
+            "name":"coffee grounds, filters"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Cork, bamboo more.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"cork, bamboo, wooden stirrers, chopsticks"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Cotton wool rags.PNG",
             "homecompostable":"1",
-            "orange":"0"
+            "orange":"0",
+            "name":"cotton and wool rags"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Dairy.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"dairy products"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Dough.png",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"dough"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Dryer lint.PNG",
             "homecompostable":"1",
-            "orange":"0"
+            "orange":"0",
+            "name":"dryer and vacuum cleaner lint"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Eggs eggshell.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"eggs, eggshells"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Fireplace ashes.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"fireplace ashes"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Fish.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"fish, shellfish"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Fruits.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"fruits"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/NOT Compostables/Glass and more.PNG",
             "homecompostable":"0",
-            "orange":"0"
+            "orange":"0",
+            "name":"glass, metal, plastic or foil"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Grass clippings.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"grass clippings"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Hair fur.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"hair and fur"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Hay straw.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"hay and straw"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/House plants.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"house plants"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Leaves.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"leaves"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Meat.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"meat, poultry"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Nutshells.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"nut shells"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Paper.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"paper"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Paper cup plates.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"paper cups, towels, napkins, plates"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Pasta.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"pasta"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/NOT Compostables/Plastic bag and more.PNG",
             "homecompostable":"0",
-            "orange":"0"
+            "orange":"0",
+            "name":"plastic bags, plastic wrap, latex, or plastic food service gloves"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/NOT Compostables/Product basket and more.PNG",
             "homecompostable":"0",
-            "orange":"0"
+            "orange":"0",
+            "name":"product basket, netting or stickers"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/NOT Compostables/Rubber band and more.PNG",
             "homecompostable":"0",
-            "orange":"0"
+            "orange":"0",
+            "name":"rubber bands, twist ties, or wire"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Sawdust.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"sawdust"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Shredded newspaper.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"shredded newspaper"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/NOT Compostables/Styrofoam and more.PNG",
             "homecompostable":"0",
-            "orange":"0"
+            "orange":"0",
+            "name":"styrofoam or plastic take-out containers"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Table scraps.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"table scraps"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Tea bags.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"tea bags"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Veggies.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"vegetables, salads (dressing ok)"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Wood chips.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"wood chips"
         },
         {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Yard trimmings.PNG",
             "homecompostable":"1",
-            "orange":"1"
+            "orange":"1",
+            "name":"yard trimmings"
         }
     ]
 }
