@@ -145,6 +145,12 @@
             "name":"pasta"
         },
         {
+            "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Pizza Boxes.PNG",
+            "homecompostable":"1",
+            "orange":"1",
+            "name":"pizza boxes"
+        },
+        {
             "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/NOT Compostables/Plastic bag and more.PNG",
             "homecompostable":"0",
             "orange":"0",
