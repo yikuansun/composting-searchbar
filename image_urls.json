@@ -1,253 +1,217 @@
 [
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Bones.PNG",
-        "homecompostable":"0",
-        "orange":"1",
+        "binstring":"0110",
         "name":"bones",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Bread.png",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1111",
         "name":"bread, grains",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Certified compostable.PNG",
-        "homecompostable":"0",
-        "orange":"1",
+        "binstring":"0110",
         "name":"certified compostable serving ware",
         "foot":"Only “BPI certified compostable” plastics are acceptable"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Coffee.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1111",
         "name":"coffee grounds, filters",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Cork, bamboo more.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1111",
         "name":"cork, bamboo, wooden stirrers, chopsticks",
         "foot":"Ensure that the cork is compostable by looking at its composition. Synthetic corks look foamy and uniform"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Cotton wool rags.PNG",
-        "homecompostable":"1",
-        "orange":"0",
+        "binstring":"1010",
         "name":"cotton and wool rags",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Dairy.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1110",
         "name":"dairy products",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Dough.png",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1111",
         "name":"dough",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Dryer lint.PNG",
-        "homecompostable":"1",
-        "orange":"0",
+        "binstring":"1000",
         "name":"dryer and vacuum cleaner lint",
         "foot":"Lint only compostable if clothes are made with 100% compostable natural fibers such as cotton, wool or hemp"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Eggs eggshell.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1111",
         "name":"eggs, eggshells",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Fireplace ashes.PNG",
-        "homecompostable":"1",
-        "orange":"0",
+        "binstring":"1000",
         "name":"fireplace ashes",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Fish.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1110",
         "name":"fish, shellfish",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Fruits.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1111",
         "name":"fruits",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/NOT Compostables/Glass and more.PNG",
-        "homecompostable":"0",
-        "orange":"0",
+        "binstring":"0000",
         "name":"glass, metal, plastic or foil",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Grass clippings.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1100",
         "name":"grass clippings",
         "foot":"While grass clippings are compostable, we recommend composting them through the yard waste program instead"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Hair fur.PNG",
-        "homecompostable":"1",
-        "orange":"0",
+        "binstring":"1000",
         "name":"hair and fur",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Hay straw.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1100",
         "name":"hay and straw",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/House plants.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1110",
         "name":"house plants",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Leaves.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1100",
         "name":"leaves",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Meat.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1110",
         "name":"meat, poultry",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Nutshells.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1111",
         "name":"nut shells",
         "foot":"Not including walnuts, which are not compostable"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Paper.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1110",
         "name":"paper",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Paper cup plates.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1110",
         "name":"paper cups, towels, napkins, plates",
         "foot":"MUST make sure there is no waxy/plastic lining inside the paper cup or on the plate (most coffee cups have this lining)"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Pasta.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1111",
         "name":"pasta",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Pizza Boxes.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1110",
         "name":"pizza boxes",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/NOT Compostables/Plastic bag and more.PNG",
-        "homecompostable":"0",
-        "orange":"0",
+        "binstring":"0000",
         "name":"plastic bags, plastic wrap, latex, or plastic food service gloves",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/NOT Compostables/Product basket and more.PNG",
-        "homecompostable":"0",
-        "orange":"0",
+        "binstring":"0000",
         "name":"product basket, netting or stickers",
         "foot":"Please make sure to remove produce stickers before composting fruits and vegetables! They are NOT compostable"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/NOT Compostables/Rubber band and more.PNG",
-        "homecompostable":"0",
-        "orange":"0",
+        "binstring":"0000",
         "name":"rubber bands, twist ties, or wire",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Sawdust.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1100",
         "name":"sawdust",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Shredded newspaper.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1110",
         "name":"shredded newspaper",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/NOT Compostables/Styrofoam and more.PNG",
-        "homecompostable":"0",
-        "orange":"0",
+        "binstring":"1100",
         "name":"styrofoam or plastic take-out containers",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Table scraps.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1110",
         "name":"table scraps",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Tea bags.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1111",
         "name":"tea bags",
         "foot":"BE CAREFUL - some tea bags are made with plastic (please look up the tea brand to check if their bags are compostable). Also ensure that all staples are removed from tag attached to string from tea bag before composting"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Veggies.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1111",
         "name":"vegetables, salads (dressing ok)",
         "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Wood chips.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1100",
         "name":"wood chips",
         "foot":"While yard trimmings are compostable, we recommend composting them through the yard waste program instead"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Yard trimmings.PNG",
-        "homecompostable":"1",
-        "orange":"1",
+        "binstring":"1100",
         "name":"yard trimmings",
         "foot":""
     }
