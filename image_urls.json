@@ -1,7 +1,7 @@
 [
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Bones.PNG",
-        "homecompostable":"1",
+        "homecompostable":"0",
         "orange":"1",
         "name":"bones",
         "foot":""
@@ -15,15 +15,15 @@
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Certified compostable.PNG",
-        "homecompostable":"1",
+        "homecompostable":"0",
         "orange":"1",
         "name":"certified compostable serving ware",
-        "foot":""
+        "foot":"Only “BPI certified compostable” plastics are acceptable"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Coffee.PNG",
         "homecompostable":"1",
-        "orange":"0",
+        "orange":"1",
         "name":"coffee grounds, filters",
         "foot":""
     },
@@ -32,7 +32,7 @@
         "homecompostable":"1",
         "orange":"1",
         "name":"cork, bamboo, wooden stirrers, chopsticks",
-        "foot":""
+        "foot":"Ensure that the cork is compostable by looking at its composition. Synthetic corks look foamy and uniform"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Cotton wool rags.PNG",
@@ -72,7 +72,7 @@
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Fireplace ashes.PNG",
         "homecompostable":"1",
-        "orange":"1",
+        "orange":"0",
         "name":"fireplace ashes",
         "foot":""
     },
@@ -102,12 +102,12 @@
         "homecompostable":"1",
         "orange":"1",
         "name":"grass clippings",
-        "foot":""
+        "foot":"While grass clippings are compostable, we recommend composting them through the yard waste program instead"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Hair fur.PNG",
         "homecompostable":"1",
-        "orange":"1",
+        "orange":"0",
         "name":"hair and fur",
         "foot":""
     },
@@ -158,7 +158,7 @@
         "homecompostable":"1",
         "orange":"1",
         "name":"paper cups, towels, napkins, plates",
-        "foot":""
+        "foot":"MUST make sure there is no waxy/plastic lining inside the paper cup or on the plate (most coffee cups have this lining)"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Pasta.PNG",
@@ -186,7 +186,7 @@
         "homecompostable":"0",
         "orange":"0",
         "name":"product basket, netting or stickers",
-        "foot":""
+        "foot":"Please make sure to remove produce stickers before composting fruits and vegetables! They are NOT compostable"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/NOT Compostables/Rubber band and more.PNG",
@@ -228,7 +228,7 @@
         "homecompostable":"1",
         "orange":"1",
         "name":"tea bags",
-        "foot":""
+        "foot":"BE CAREFUL - some tea bags are made with plastic (please look up the tea brand to check if their bags are compostable). Also ensure that all staples are removed from tag attached to string from tea bag before composting"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Veggies.PNG",
@@ -242,7 +242,7 @@
         "homecompostable":"1",
         "orange":"1",
         "name":"wood chips",
-        "foot":""
+        "foot":"While yard trimmings are compostable, we recommend composting them through the yard waste program instead"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Yard trimmings.PNG",
