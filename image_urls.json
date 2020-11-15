@@ -169,9 +169,9 @@
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Sawdust.PNG",
-        "binstring":"1100",
+        "binstring":"1110",
         "name":"sawdust",
-        "foot":""
+        "foot":"Not in large quantities, OK to use to cover food waste. Make sure sure the wood from the sawdust was not treated or had glue"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Shredded newspaper.PNG",
@@ -207,12 +207,12 @@
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Wood chips.PNG",
         "binstring":"1100",
         "name":"wood chips",
-        "foot":"While yard trimmings are compostable, we recommend composting them through the yard waste program instead"
+        "foot":""
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Yard trimmings.PNG",
         "binstring":"1100",
         "name":"yard trimmings",
-        "foot":""
+        "foot":"While yard trimmings are compostable, we recommend composting them through the yard waste program instead"
     }
 ]
