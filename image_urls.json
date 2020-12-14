@@ -25,7 +25,7 @@
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Cork, bamboo more.PNG",
-        "binstring":"1111",
+        "binstring":"1110",
         "name":"cork, bamboo, wooden stirrers, chopsticks",
         "foot":"Ensure that the cork is compostable by looking at its composition. Synthetic corks look foamy and uniform"
     },
@@ -33,7 +33,7 @@
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Cotton wool rags.PNG",
         "binstring":"1010",
         "name":"cotton and wool rags",
-        "foot":""
+        "foot":"Important to note that it must be 100% cotton and 100% wool"
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Dairy.PNG",
@@ -93,7 +93,7 @@
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Hair fur.PNG",
         "binstring":"1000",
         "name":"hair and fur",
-        "foot":""
+        "foot":"While hair and fur are compostable, they can take a lot longer to break down than other organic materials and can appear in the compost end product."
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/Hay straw.PNG",
@@ -181,7 +181,7 @@
     },
     {
         "url":"https://raw.githubusercontent.com/yikuansun/composting-searchbar/master/image_data/NOT Compostables/Styrofoam and more.PNG",
-        "binstring":"1100",
+        "binstring":"0000",
         "name":"styrofoam or plastic take-out containers",
         "foot":""
     },
